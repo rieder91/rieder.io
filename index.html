@@ -11,6 +11,8 @@
   <meta name="keywords" content="Thomas,Rieder,Personal,Website,Computer,Science,Student">
   <meta name="author" content="Thomas Rieder">
 
+  <meta charset="UTF-8">
+
 
   <!-- Bootstrap CSS and JS -->
   <link href="css/bootstrap.css" rel="stylesheet" media="screen">
@@ -19,209 +21,322 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
   <!--[if lt IE 9]>
     <script src="../../assets/js/html5shiv.js"></script>
     <script src="../../assets/js/respond.min.js"></script>
-  <![endif]-->
+    <![endif]-->
 
 
-  <!-- Custom CSS and JS -->
-  <script src="js/custom.js"></script>
-  <link href="css/custom.css" rel="stylesheet" media="screen">
+    <!-- Custom CSS and JS -->
+    <script src="js/custom.js"></script>
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+    <link href="images/favicon.png" rel="icon">
+  </head>
+
+  <body>
+    <div id="navbar">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Thomas Rieder's Website</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#top"><span class="glyphicon glyphicon-arrow-up"></span> Top</a></li>
+            <li><a href="#interests"><span class="glyphicon glyphicon-heart"></span> Interests</a></li>
+            <li><a href="#work"><span class="glyphicon glyphicon-briefcase"></span> Work</a></li>
+            <li><a href="#background"><span class="glyphicon glyphicon-user"></span> Background</a></li>
+            <li><a href="#contact"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
+            <li><a href="http://blog.rieder.io/"><span class="glyphicon glyphicon-book"></span> <strong>Blog</strong></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
 
-</head>
-
-<body style="padding-top: 40px">
-  <div id="navbar">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation banner">
+    <div class="jumbotron">
       <div class="container">
-        <a class="navbar-brand">Thomas Rieder's Website</a>
+        <div class="row">
 
-        <ul class="nav navbar-nav">
-          <li><a href="#top"><span class="glyphicon glyphicon-arrow-up"/> Top</a></li>
-          <li><a href="#interests"><span class="glyphicon glyphicon-heart"/> Interests</a></li>
-          <li><a href="#work"><span class="glyphicon glyphicon-briefcase"/> Work</a></li>
-          <li><a href="#background"><span class="glyphicon glyphicon-user"/> Background</a></li>
-          <li><a href="#contact"><span class="glyphicon glyphicon-user"/> Contact</a></li>
-          <li><a href="http://rieder.io/"><span class="glyphicon glyphicon-book"/> <strong>Blog</strong></a></li>
-        </ul>
+          <div class="col-md-8">
+            <h1 id="header" class="page-header">Hi. I'm Thomas Rieder</h1>
+            <p class="lead">
+              I'm a computer science student and part-time software developer.<br/>
+              I enjoy making and breaking stuff.
+            </p>
 
-      </div>
-    </nav>
-  </div>
+            <p><a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a></p>
+          </div>
+          <div class="col-md-4">
 
-
-
-
-
-      <div class="jumbotron">
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-md-8">
-              <h1 id="header" class="page-header">Hi. I'm Thomas Rieder</h1>
-              <p class="lead">
-                I'm a computer science student and part-time software developer.</br>
-                I enjoy making and breaking stuff.
-              </p>
-
-              <p><a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a></p>
-
-            </div>
-            <div class="col-md-4">
-
-              <img src="images/thomas.jpg" alt="picture of me" class="img-thumbnail">
-
-            </div>
+            <img src="images/thomas.jpg" alt="picture of me" class="img-thumbnail">
 
           </div>
 
         </div>
+
       </div>
+    </div>
 
 
+    <div class="container">
 
-      <div class="container">
+      <h2 id="interests" class="page-header">My Interests</h2>
 
-        <h2 id="interests" class="page-header">My Interests</h2>
+      <div class="row media">
+        <div class="col-md-6">
+          <div class="pull-left">
+            <h1><span class="glyphicon glyphicon-camera glyph-media"></span></h1>
+          </div>
+          <div class="media-body">
+            <h3>Photography</h3>
+            <p>Photography Content Body
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+          </div>
+        </div>
 
-<div class="row">
-<div class="media col-md-6">
-  <div class="pull-left">
-    <h1><span class="glyphicon glyphicon-film"></span></h1>
-  </div>
-  <div class="media-body">
-    <h3>Movies</h3>
-    <p>Movies Content Body</p>
-  </div>
-</div>
+        <div class="col-md-6">
+          <div class="pull-left">
+            <h1><span class="glyphicon glyphicon-plane glyph-media"></span></h1>
+          </div>
+          <div class="media-body">
+            <h3>Traveling</h3>
+            <p>Traveling Content Body
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+          </div>
+        </div>
 
-<div class="media col-md-6">
-  <div class="pull-left">
-    <h1><span class="glyphicon glyphicon-camera"></span></h1>
-  </div>
-  <div class="media-body">
-    <h3>Photography</h3>
-    <p>Photography Content Body</p>
-  </div>
-</div>
+        <div class="col-md-6">
+          <div class="pull-left">
+            <h1><span class="glyphicon glyphicon-lock glyph-media"></span></h1>
+          </div>
+          <div class="media-body">
+            <h3>Security</h3>
+            <p>Security Content Body
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+          </div>
+        </div>
 
-<div class="media col-md-6">
-  <div class="pull-left">
-    <h1><span class="glyphicon glyphicon-plane"></span></h1>
-  </div>
-  <div class="media-body">
-    <h3>Traveling</h3>
-    <p>Traveling Content Body</p>
-  </div>
-</div>
+        <div class="col-md-6">
+          <div class="pull-left">
+            <h1><span class="glyphicon glyphicon-cog glyph-media"></span></h1>
+          </div>
+          <div class="media-body">
+            <h3>Robotics</h3>
+            <p>Robotics Content Body
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+          </div>
+        </div>
 
-<div class="media col-md-6">
-  <div class="pull-left">
-    <h1><span class="glyphicon glyphicon-lock"></span></h1>
-  </div>
-  <div class="media-body">
-    <h3>Security</h3>
-    <p>Security Content Body</p>
-  </div>
-</div>
+        <div class="col-md-6">
+          <div class="pull-left">
+            <h1><span class="glyphicon glyphicon-tower glyph-media"></span></h1>
+          </div>
+          <div class="media-body">
+            <h3>Artificial Intelligence</h3>
+            <p>Artificial Intelligence Content Body
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+          </div>
+        </div>
 
-<div class="media col-md-6">
-  <div class="pull-left">
-    <h1><span class="glyphicon glyphicon-cog"></span></h1>
-  </div>
-  <div class="media-body">
-    <h3>Robotics</h3>
-    <p>Robotics Content Body</p>
-  </div>
-</div>
+      <div class="col-md-6">
+          <div class="pull-left">
+            <h1><span class="glyphicon glyphicon-film glyph-media"></span></h1>
+          </div>
+          <div class="media-body">
+            <h3>Movies</h3>
+            <p>Movies Content Body
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+          </div>
+        </div>
+    </div>
 
-<div class="media col-md-6">
-  <div class="pull-left">
-    <h1><span class="glyphicon glyphicon-tower"></span></h1>
-  </div>
-  <div class="media-body">
-    <h3>Artificial Intelligence</h3>
-    <p>Artificial Intelligence Content Body</p>
-  </div>
-</div>
-</div>
+      <div class="media">
+        <div class="pull-left">
+          <h1><span class="glyphicon glyphicon-edit"></span></h1>
+        </div>
+        <div class="media-body">
+          <h3>Programming</h3>
+          <p>Programming Content Body
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
 
-<div class="media">
-  <div class="pull-left">
-    <h1><span class="glyphicon glyphicon-edit"></span></h1>
-  </div>
-  <div class="media-body">
-    <h3>Programming</h3>
-    <p>Programming Content Body</p>
-    <div class="row">
-      <div class="media-body col-md-4">
-       <h4 class="media-heading">Java</h4>
-       <p>Java body</p>
+          <div class="row media">
+            <div class="col-md-4">
+              <div class="pull-left">
+                <img class="media-object logo-small" src="images/java-logo.png" alt="Java Logo">
+              </div>
+              <div class="media-body">
+               <h4 class="media-heading">Java</h4>
+               <p>Java body
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+             </div>
+           </div>
+           <div class="col-md-4">
+            <div class="pull-left">
+              <img class="media-object logo-small" src="images/python-logo.png" alt="Python Logo">
+            </div>
+            <div class="media-body">
+             <h4 class="media-heading">Python</h4>
+             <p>Python body
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+           </div>
+         </div>
+         <div class="col-md-4">
+          <div class="pull-left">
+            <span class="glyphicon glyphicon-cog glyph-media glyph-small"></span>
+          </div>
+          <div class="media-body">
+           <h4 class="media-heading">Automation</h4>
+           <p>Automation body
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+         </div>
+       </div>
      </div>
-     <div class="media-body col-md-4">
-       <h4 class="media-heading">Python</h4>
-       <p>Python body</p>
+   </div>
+ </div>
+</div>
+
+<div class="container">
+
+  <h2 class="page-header" id="work">My Work</h2>
+  <div class="row media">
+    <div class="col-md-6">
+      <div class="pull-left">
+        <h1><span class="glyphicon glyphicon-book glyph-media"></span></h1>
+      </div>
+      <div class="media-body">
+        <h3>Online Education</h3>
+        <p>Online Education Content Body
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="pull-left">
+        <h1><span class="glyphicon glyphicon-flash glyph-media"></span></h1>
+        <!--<img class="media-object logo-small" src="images/quadcopter-logo.png" alt="Quadcopter Logo">-->
+      </div>
+      <div class="media-body">
+        <h3>Quadcopter</h3>
+        <p>Quadcopter Content Body
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+      </div>
+    </div>
+
+</div>
+  <div class="media">
+    <div class="pull-left">
+       <h1><span class="glyphicon glyphicon-briefcase glyph-media"></span></h1>
+    </div>
+    <div class="media-body">
+      <h3>Celix</h3>
+      <p>Celix Content Body
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu.</p>
+
+      <div class="row media">
+        <div class="col-md-4">
+          <div class="pull-left">
+            <img class="media-object logo-small" src="images/atlassian-logo.png" alt="Atlassian Logo">
+          </div>
+          <div class="media-body">
+           <h4 class="media-heading">Atlassian</h4>
+           <p><br/></p>
+         </div>
+       </div>
+       <div class="col-md-4">
+        <div class="pull-left">
+          <img class="media-object logo-small" src="images/perforce-logo.png" alt="Perforce Logo">
+        </div>
+        <div class="media-body">
+         <h4 class="media-heading">Perforce</h4>
+         <p><br/></p>
+       </div>
      </div>
-     <div class="media-body col-md-4">
-       <h4 class="media-heading">Automation</h4>
-       <p>Automation body</p>
+     <div class="col-md-4">
+      <div class="pull-left">
+        <img class="media-object logo-small" src="images/puppet-logo.png" alt="Puppet Labs Logo">
+      </div>
+      <div class="media-body">
+       <h4 class="media-heading">Puppet</h4>
+       <p><br/></p>
      </div>
    </div>
 </div>
-
-
-<div></div>
-
+</div>
 </div>
 
 
-
-
-        </div>
-
-        <div class="container">
-
-          <h2 class="page-header" id="work">My Work</h2>
-
-          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu. Morbi tempus nisi eget orci elementum, eu bibendum nunc vulputate. Sed nec elit eget massa cursus elementum eu non erat. Aenean vel lacus blandit, mattis ante et, volutpat eros. Etiam nec velit facilisis, blandit purus ut, ornare odio.
-
-            Nam congue erat odio, vel consectetur orci bibendum in. Vivamus id massa id dolor congue porttitor eu at turpis. Suspendisse tincidunt enim in mauris placerat, non iaculis dolor congue. Pellentesque pretium libero elit, a placerat odio scelerisque sed. Integer semper, velit in aliquam suscipit, lacus nisl mattis dui, quis porttitor mauris diam vitae sapien. Pellentesque arcu sapien, iaculis sed tincidunt vitae, consequat sed quam. Fusce quis facilisis arcu. Cras tincidunt metus vel sapien sagittis blandit.</p>
-
-
-          </div>
-
-          <div class="container">
-
-            <h2 class="page-header" id="background">My Background</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu. Morbi tempus nisi eget orci elementum, eu bibendum nunc vulputate. Sed nec elit eget massa cursus elementum eu non erat. Aenean vel lacus blandit, mattis ante et, volutpat eros. Etiam nec velit facilisis, blandit purus ut, ornare odio.
-
-              Nam congue erat odio, vel consectetur orci bibendum in. Vivamus id massa id dolor congue porttitor eu at turpis. Suspendisse tincidunt enim in mauris placerat, non iaculis dolor congue. Pellentesque pretium libero elit, a placerat odio scelerisque sed. Integer semper, velit in aliquam suscipit, lacus nisl mattis dui, quis porttitor mauris diam vitae sapien. Pellentesque arcu sapien, iaculis sed tincidunt vitae, consequat sed quam. Fusce quis facilisis arcu. Cras tincidunt metus vel sapien sagittis blandit.</p>
-
-
-            </div>
-            <div id="contact-area">
-            <div class="container">
-
-              <h2 class="page-header" id="contact"#>Get in Touch</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu. Morbi tempus nisi eget orci elementum, eu bibendum nunc vulputate. Sed nec elit eget massa cursus elementum eu non erat. Aenean vel lacus blandit, mattis ante et, volutpat eros. Etiam nec velit facilisis, blandit purus ut, ornare odio.
-
-                Nam congue erat odio, vel consectetur orci bibendum in. Vivamus id massa id dolor congue porttitor eu at turpis. Suspendisse tincidunt enim in mauris placerat, non iaculis dolor congue. Pellentesque pretium libero elit, a placerat odio scelerisque sed. Integer semper, velit in aliquam suscipit, lacus nisl mattis dui, quis porttitor mauris diam vitae sapien. Pellentesque arcu sapien, iaculis sed tincidunt vitae, consequat sed quam. Fusce quis facilisis arcu. Cras tincidunt metus vel sapien sagittis blandit.</p>
-
-
-              </div>
 </div>
-            <div id="footer" class="container footer">
-              <p>
-                <strong><span class="glyphicon glyphicon-copyright-mark"></span> by Thomas Rieder</strong></br>
-                Powered by <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://jquery.com/">jQuery</a>.</br>
-                Looks best in WebKit based browsers. IE <em>not</em> supported.
-              </p>
-            </div>
 
-            </body>
-            </html>
+<div class="container">
+
+  <h2 class="page-header" id="background">My Background</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et dui laoreet, ultrices neque ac, ultrices nisi. In hac habitasse platea dictumst. Morbi a lorem metus. Sed elementum egestas dapibus. Aliquam quis justo at magna sodales molestie ut quis erat. Sed in vulputate lectus. Nulla molestie, sapien blandit porttitor tincidunt, enim turpis dapibus felis, vitae egestas lacus nunc ut arcu. Morbi tempus nisi eget orci elementum, eu bibendum nunc vulputate. Sed nec elit eget massa cursus elementum eu non erat. Aenean vel lacus blandit, mattis ante et, volutpat eros. Etiam nec velit facilisis, blandit purus ut, ornare odio.
+
+    Nam congue erat odio, vel consectetur orci bibendum in. Vivamus id massa id dolor congue porttitor eu at turpis. Suspendisse tincidunt enim in mauris placerat, non iaculis dolor congue. Pellentesque pretium libero elit, a placerat odio scelerisque sed. Integer semper, velit in aliquam suscipit, lacus nisl mattis dui, quis porttitor mauris diam vitae sapien. Pellentesque arcu sapien, iaculis sed tincidunt vitae, consequat sed quam. Fusce quis facilisis arcu. Cras tincidunt metus vel sapien sagittis blandit.</p>
+
+
+  </div>
+
+  <div>
+    <div class="container">
+
+      <h2 class="page-header" id="contact">Get in Touch</h2>
+      <p>
+        The fastest way to contact me is <a href="http://scr.im/trieder">via email</a> (sorry for the captcha).
+      </p>
+      <p>You can also find me at the following sites:</p>
+
+      <div id="contact-area">
+        <ul>
+          <li>
+            <a href="https://twitter.com/thomasrieder" class="btn">
+              <img class="contact-logo" src="images/twitter-logo-bw.png" alt="Twitter Logo">
+              <img class="contact-logo-hover" src="images/twitter-logo-color.png" alt="Twitter Logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/rieder91" class="btn">
+
+              <img class="contact-logo" src="images/github-logo-bw.png" alt="Github Logo">
+              <img class="contact-logo-hover" src="images/github-logo-color.png" alt="Github Logo">
+
+            </a>
+          </li>
+          <li>
+            <a href="https://secure.flickr.com/photos/rieder91/" class="btn">
+
+              <img class="contact-logo" src="images/flickr-logo-bw.png" alt="Flickr Logo">
+              <img class="contact-logo-hover" src="images/flickr-logo-color.png" alt="Flickr Logo">
+
+            </a>
+          </li>
+          <li>
+            <a href="http://www.lastfm.de/user/rieder91" class="btn">
+
+              <img class="contact-logo" src="images/lastfm-logo-bw.png" alt="Lastfm Logo">
+              <img class="contact-logo-hover" src="images/lastfm-logo-color.png" alt="Lastfm Logo">
+
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="footer" class="container footer">
+    <p>
+      <strong><span class="glyphicon glyphicon-copyright-mark"></span> by Thomas Rieder</strong><br/>
+      Powered by <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://jquery.com/">jQuery</a>.<br/>
+      Looks best when not using IE.<br/>
+      All logos courtesy of the respective company.
+    </p>
+  </div>
+
+</body>
+</html>
