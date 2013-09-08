@@ -3,19 +3,35 @@ $(function() {
 
     // create menu
     $("a[href^='#']").on('click', function(e) {
-     e.preventDefault();
+      e.preventDefault();
 
-     var target = 0;
-     var bootstrap_fix = -60;
+      var target = 0;
+      var bootstrap_fix = -60;
+      var header = this.hash;
 
-     if(this.hash !== "#top") {
-      target = $(this.hash).offset().top + bootstrap_fix;
-    }
+      if(header !== "#top") {
+        target = $(header).offset().top + bootstrap_fix;
+      }
 
-    $('html, body').animate({ scrollTop: target }, 300);
+      $('html, body').animate({ scrollTop: target }, 300, function() {
+        // remove previous glow
+        $("#navbar li a").each(function(index) {
+          $(this).parent().removeClass("active");
+        });
 
-       // TODO edit: Opera and IE requires the "html" elm. animated
-     });
+        $("#navbar span").each(function(index) {
+          $(this).removeClass("glyphicon-glow");
+        });
+
+
+        $("[href='" + header + "']").parent().addClass("active");
+        $("span", $('#navbar li a[href$="' + header + '"]').parent()).addClass("glyphicon-glow");
+      });
+
+
+
+
+    });
 
     $(document).scroll(function() {
 
@@ -31,7 +47,6 @@ $(function() {
             highlightIndex = index;
           }
         }
-
       });
 
       // id of the nearest header
