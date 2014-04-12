@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/rieder
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rieder.io
+  * I am rieder (https://keybase.io/rieder) on keybase.
+  * I have a public key with fingerprint 3DF6 B2EF E574 37BD D498  DC49 9E20 DB20 F46C 3F05
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "3df6b2efe57437bdd498dc499e20db20f46c3f05",
+            "host": "keybase.io",
+            "key_id": "9e20db20f46c3f05",
+            "uid": "92c6ff2326cd122f0ca317f31129ac00",
+            "username": "rieder"
+        },
+        "service": {
+            "hostname": "rieder.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397303326,
+    "expire_in": 157680000,
+    "prev": "e0cbb12718875629be234546c197eda8c3754affa188bcb393f0b90df4e0c09e",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.5
+Comment: https://keybase.io/crypto
+
+yMHgAnicbZFbSBRRHMbXW+lStNuKUVjYEanMam67s7NqYiAkGWUWBu26zuXMOubO
+bDOzXlqFcH2wGwUmVFD4YlKWFpSyD6GJkBWGoZCCYC6aPohl4UuCeUbrIWhehvn+
+v+/7zn/O4NY4kzmm6ZaQr+TVtsV86F8ImkoK9+8JAU4R6oArBC7C9ZcoyT6oBlRJ
+1oELkILo4AgoQjtNkTQnCBTjFHiKYSCBCRyBiZSDJ0XMDrJAhaIZDhTDsRo8LClI
+Qx9eSUDqf/jgxoDgHaJIkISDF3CCEDGeJXFaJHGcYFgewwxQg6rM+iGiVQkKUAUN
+WQBp1RKPtNB68T/zje6AqugKr1QhuULXAy7DpdcFDKwGct4/AV5OkgW0MjJUQ1WT
+FBm4cETyumQk4iRDkxiJjpcFYG1AUqFXMgg77XBi6DFqYDWKhBjPcThB404nbXcQ
+DAcJkrKjbXGGhgLr5EnaTrGiyCKA4zmSQX+BYzBBpJATYyDq1+AlWQEu1KSzPhSp
+ST6Z1YMqBA0D/e54U4zZtCkh1rg0kznJ8vcqOwo3/4b1eNu+8SfY4I0z4eaJFiv5
+vSy//nxub2fX/NXBF1e+fXztt6gLY69MyeVW311bxH/ggtfTUV6299qzqeZMuGMs
+zT1/POVYpGG6csBzovhxboFnZ85i3siu1VHP8u4Hy+bsN52RL9Ho08nSg1qjfyR8
+6O02tnH1XllVUpJtacuvU3UFLZenY+MrQ7Of+r8uHekryLZMDLf75zKa24uaxJ+3
+w+nW7paizvGjeb0z18dOLs3eB6upKz/CrcUZ6TaQ7LbMJ3RMJrprhxO5qcWe6Pbu
+uKGbD+Vzo7YZfKU1QqWl3OnJKX00FM3s+ny2pCT4rvH9XOrplL4ha02h8+Xc8zXF
+QhCi
+=Ntqb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rieder
+
+==================================================================
+
