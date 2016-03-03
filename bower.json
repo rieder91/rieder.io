@@ -1,0 +1,18 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Thomas Rieder's Personal Website",
+  "homepage": "https://github.com/rieder91/homepage",
+  "authors": [
+    "Thomas Rieder <thomas@rieder.io>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,43 +1,71 @@
-
-.glyphicon-glow {
-    color: #4183c4;
+.profile-image {
+    width: 64px;
 }
 
-.footer {
-    text-align: right;
-}
-
-.logo-small {
-    width: 48px;
-    padding-right: 0.5em;
-}
-
-.glyph-small {
-    font-size: 2.2em;
-}
-
-#contact-area ul {
-    text-align: center;
-}
-
-#contact-area ul li {
-    text-align: center;
-    list-style: none;
+#profile-list li {
     display: inline;
+    float: left;
+    margin: 0 2em;
 }
 
-.contact-logo {
-    width: 64px;
+#profile-list {
+    margin-top: 2em;
+    padding-left: 0;
 }
 
-.contact-logo-hover {
-    width: 64px;
+#profile-list img {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
-body {
-    padding-top: 40px;
+#profile-list img:hover {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+    -webkit-filter: grayscale(0%);
 }
 
-body .pull-left {
-    width: 5.0em;
+#contact-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-info {
+    background-color: #E6E9ED
+}
+
+#contact-info p {
+    padding: 2em 5em;
+}
+
+#header {
+    background-color: #F5F7FA;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#technology-list li {
+    display: inline;
+    float: left;
+    margin: 0 2em;
+}
+
+#technology-list {
+    margin-top: 2em;
+    padding-left: 0;
+}
+
+#technology-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#technology-list > li {
+    width: 96px;
+}
+
+.technology-image {
+    width: 96px;
+    margin: 1em 1em;
 }

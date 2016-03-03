@@ -1,357 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Thomas Rieder's Personal Website</title>
+    <title>Thomas Rieder's Personal Website</title>
 
-  <!-- Bootstrap Metadata Stuff -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Metadata Stuff -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Pathetic Attempt at SSO -->
-  <meta name="description" content="Thomas Rieder's Personal Website">
-  <meta name="keywords" content="Thomas,Rieder,Personal,Website,Computer,Science,Student,Atlassian,Devops,Austria,Puppet">
-  <meta name="author" content="Thomas Rieder">
+    <!-- Pathetic Attempt at SEO -->
+    <meta name="description" content="Thomas Rieder's Personal Website">
+    <meta name="keywords"
+          content="Thomas,Rieder,Personal,Website,Computer,Science,Student,Atlassian,Devops,Austria,Puppet">
+    <meta name="author" content="Thomas Rieder">
 
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
 
-  <!-- Bootstrap CSS and JS -->
-  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <link href="prod/homepage.min.css" rel="stylesheet" media="screen">
+    <script src="prod/homepage.min.js"></script>
 
-  <!--[if lt IE 9]>
-    <script src="../../assets/js/html5shiv.js"></script>
-    <script src="../../assets/js/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- Font Awesome -->
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-
-  <!-- Squaresend for Contact Form -->
-  <script src="https://squaresend.com/squaresend.js"></script>
-
-  <!-- Custom CSS and JS -->
-  <script src="js/custom.js"></script>
-  <link href="css/custom.css" rel="stylesheet" media="screen">
-  <link href="images/favicon.png" rel="icon">
+    <link href="img/favicon.png" rel="icon">
 </head>
 
 <body>
-  <div id="navbar">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand">Thomas Rieder's Website</a>
-      </div>
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#top"><span class="glyphicon glyphicon-arrow-up"></span> Top</a></li>
-          <li><a href="#interests"><span class="glyphicon glyphicon-heart"></span> Interests</a></li>
-          <li><a href="#work"><span class="glyphicon icon-briefcase"></span> Work</a></li>
-          <li><a href="#background"><span class="glyphicon glyphicon-user"></span> Background</a></li>
-          <li><a href="#contact"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
-          <li><a href="http://blog.rieder.io/"><span class="glyphicon glyphicon-book"></span> <strong>Blog</strong></a></li>
-        </ul>
-      </div>
+<div id="navbar">
+    <nav class="navbar navbar-inverse" role="navigation" style="margin-bottom: 0">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Thomas Rieder's Website</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="http://blog.rieder.io/"><span class="glyphicon glyphicon-book"></span>
+                        <strong>Blog</strong></a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-  </div>
-
-
-  <div class="jumbotron">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-8">
-          <h1 id="header" class="page-header">Hi. I'm Thomas Rieder</h1>
-          <p class="lead">
-            I'm a computer science student and part-time software developer.<br/>
-            I enjoy making and breaking stuff.
-          </p>
-
-          <p><a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a></p>
-        </div>
-        <div class="col-md-4">
-
-          <img src="images/thomas.jpg" alt="picture of me" class="img-thumbnail">
-
-        </div>
-
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="container">
-
-    <h2 id="interests" class="page-header">My Interests</h2>
-
-    <div class="row media">
-      <div class="col-md-6">
-        <div class="pull-left">
-          <h1><i class="glyphicon icon-camera icon-large"></i></h1>
-        </div>
-        <div class="media-body">
-          <h3>Photography</h3>
-          <p>
-            In my spare time I do a lot of photography. I focus on <strong>landscape</strong>, <strong>macro</strong> and <strong>wildlife</strong> shots. This is why a wide angle and telephoto lens are my best friends. When travelling I'm almost always taking my gear with me - although it's quite heavy. I'm currently using a Canon 7D with four lenses: wide angle (10-22mm), general purpose (17-55mm), macro (100mm) and telephoto (70-300mm). Given the limitations of a crop sensor I plan to eventually upgrade to full-frame.
-            <strong>You can check out some of my shots on <a href="https://secure.flickr.com/photos/rieder91/">Flickr</a>.</strong>
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="pull-left">
-          <h1><i class="glyphicon icon-lock icon-large"></i></h1>
-        </div>
-        <div class="media-body">
-          <h3>Security</h3>
-          <p>
-            I really enjoy analyzing code. Of course there are a lot of vulnerabilities with <strong>web applications</strong> (first and foremost injection attacks) but I am more passionate about <strong>overflow attacks</strong>. I find the low-level nature of buffer/heap overflows or return-to-libc attacks more <em>pure</em>. I also took part in several CTFs and the <a href="http://events.ccc.de/"><strong>CCC</strong></a> is usually a must for me. Given my interest in security I try to not make my own code vulnerable - even tough it might take more time to complete. You can also find me on several sites offering <em>hacking challenges</em> like HackQuest or HackThisSite.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="pull-left">
-          <h1><i class="glyphicon icon-cogs icon-large"></i></h1>
-        </div>
-        <div class="media-body">
-          <h3>Robotics</h3>
-          <p>
-            Robots are fun. Their <strong>blend of hardware and software</strong> make them unique. You can't solely focus on your programming - you have to think of  your hardware and how to interact with it as well. Concepts like <strong>time</strong> or <strong>behaviour</strong> also play a strong role. The programming style is totally different and it feels more like you are actually creating something, when you finally get your robot to find through a labyrinth. I've built a simple <strong>line follower</strong>, a small <strong>segway</strong>, a <strong>labyrinth "solver"</strong> and a <strong>quadcopter</strong>. Nowadays I prefer an <strong><a href="http://www.arduino.cc/">Arduino</a></strong> (or a <em><a href="http://www.raspberrypi.org/">Raspberry Pi</a></em> for some applications), but I've also used a <a href="http://www.microchip.com/pagehandler/en-us/products/picmicrocontrollers">PIC</a> and <a href="http://mindstorms.lego.com/">Lego NXT</a>.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="pull-left">
-          <h1><span class="glyphicon glyphicon-tower glyph-media"></span></h1>
-        </div>
-        <div class="media-body">
-          <h3>Artificial Intelligence</h3>
-          <p>
-            I care most about the more <strong>practical aspects of AI</strong> which includes topics like <strong>path planning</strong>, <strong>localization</strong>, <strong>mapping</strong> or <strong>machine learning</strong>. It's not that I completely dislike formal systems - on the contrary I fully understand their necessity and what they provide - I just like <em>actually seeing</em> something, more. It's fascinating if a robot is able to <strong>track its position</strong> within an environment or <strong>plan the shortest path</strong> to some goal. I also find the concept of machine learning quite thrilling - actually teaching <em>some machine</em> how to do something <strong>based on data</strong>, instead of writing a specific algorithm - who doesn't want that?!
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="pull-left">
-          <h1><i class="glyphicon icon-plane icon-large"></i></h1>
-        </div>
-        <div class="media-body">
-          <h3>Traveling</h3>
-          <p>
-            I'm a huge fan of travelling - not only because it's a fantastic opportunity for taking pictures but also because it's nice to leave the stressful working life behind me and experience new cultures. I'm particularly fascinated with <strong>Asia</strong> and <strong>Africa</strong>. Asia because of the tremendous <strong>cultural differences</strong> and the values of its society. Even though Asia has the fasting growing economy in the world, during my visits I've experienced a respect for traditions and a spirituality that I have yet to see in Austria. My interest in Africa on the other hand lies in its <strong>raw nature</strong> and <strong>wildlife</strong>. Visiting Africa has always been an <strong>adventure</strong> for me.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="pull-left">
-          <h1><i class="glyphicon icon-film icon-large"></i></h1>
-        </div>
-        <div class="media-body">
-          <h3>Movies</h3>
-          <p>
-            When I'm not coding something, I tend to watch movies and series. I usually prefer <strong>thrillers</strong>, <strong>adventure</strong>- or <strong>action</strong>-movies, but I'm always open to suggestions. I closely following TV series like <strong>Game of Thrones</strong>, <strong>Breaking Bad</strong>, <strong>Sherlock</strong> or <strong>Dexter</strong>. Given the sorry state of Austrian TV I usually get my movies from services like iTunes. I'm also a little bit of an audio fanatic - a fact my neighbors probably only know to well. But let's be honest - you just <em>need</em> surround sound for a cinematic experience...
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="media">
-      <div class="pull-left">
-        <h1><i class="glyphicon icon-code icon-large"></i></h1>
-      </div>
-      <div class="media-body">
-        <h3>Programming</h3>
-        <p>
-          Like every computer science student I tend to code a lot. I've dabbled in <strong>C</strong>, <strong>Haskell</strong>, <strong>Java</strong>, <strong>Python</strong>, <strong>Bash</strong>, <strong>SQL</strong>, <strong>PHP</strong>, <strong>Javascript</strong> and <strong>Octave</strong> (Matlab). The ones I've used the most are definitely <strong>Java</strong> and <strong>Python</strong>. I'm always interested in learning new stuff and I find things like <a href="http://nodejs.org/">Node.JS</a> fascinating - <strike><a href="https://bitbucket.org/koop2013/picturestream">sadly I haven't had the time to take a closer look yet</a></strike>. Given Java's slow development I'm currently learning <strong><a href="http://www.scala-lang.org/">Scala</a></strong>, as I think it's the most promising successor for a JVM-based language. The <strong>blend of object oriented</strong> and <strong>functional</strong> language elements make it really attractive. <small>I also wonder if I will actually live to see Lambda expressions in Java.</small>
-        </p>
-
-        <div class="row media">
-          <div class="col-md-12">
-            <div class="pull-left">
-              <img class="media-object logo-small" src="images/java-logo.png" alt="Java Logo">
-            </div>
-            <div class="media-body">
-             <h4 class="media-heading">Java</h4>
-             <p>
-               Both at university and at work Java is often the language of choice. I've developed both client and server applications in Java using different frameworks like <a href="http://wiki.eclipse.org/index.php/Rich_Client_Platform">Eclipse RCP</a>, <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a>, <a href="https://lucene.apache.org/core/">Lucene</a>, <a href="http://www.hibernate.org/">Hibernate</a> or <a href="http://www.springsource.org/">Spring</a>. I prefer <strong>web based three-tier architectures with REST</strong>. Although Java is often frowned upon, I actually think it is a good choice for many projects due to its simplicity, good library support and testability.
-             </p>
-           </div>
-         </div>
-          <div class="col-md-12">
-            <div class="pull-left">
-              <img class="media-object logo-small" src="images/python-logo.png" alt="Python Logo">
-            </div>
-            <div class="media-body">
-             <h4 class="media-heading">Python</h4>
-             <p>
-               There are applications for which Java is not a good choice. Small scripts, complex algorithms or scientific use cases like A.I. or machine learning usually suffer from Java's verbose nature - which is why I use Python. Python's <strong>good readability</strong> and <strong>powerful nature</strong> make it an excellent choice for these problems. You can see some of my Python code <a href="https://github.com/rieder91/CS373-Programming-a-Robotic-Car">here</a>.
-             </p>
-           </div>
-         </div>
-         <div class="col-md-12">
-          <div class="pull-left">
-            <span class="glyphicon glyphicon-cog glyph-small"></span>
-          </div>
-          <div class="media-body">
-           <h4 class="media-heading">Automation</h4>
-           <p>
-            I get fed up with deploying applications and setting up development environments rather quickly. For this reason I use <strong><a href="http://www.vagrantup.com/">Vagrant</a></strong> with <strong><a href="http://puppetlabs.com/">Puppet</a></strong>/<strong><a href="http://www.opscode.com/chef/">Chef</a></strong> and container engines like <strong><a href="http://www.docker.io/">Docker</a></strong>. Setting up a development database with Vagrant and distributing just the <em>Vagrantfile</em> to all the project members is so much easier than copying VMs or explaining everyone how to set up the database manually - which leads to people having different problems instead of just <em>one</em> common problem. I also think that for a successful <strong>agile development workflow</strong>, it is essential to use version control systems like <a href="http://git-scm.com/">Git</a> and build servers.
-          </p>
-        </div>
-      </div>
-   </div>
- </div>
 </div>
+
+<div id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="jumbotron-contents">
+                    <h1>Hi. I'm Thomas Rieder</h1>
+                    <p class="lead">
+                        I'm a computer science student and part-time software developer.<br/>
+                        I enjoy making and breaking stuff.
+                    </p>
+                    <p><a data-toggle="collapse" href="#contactInfo" class="btn btn-primary btn-lg">Get in Touch</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="jumbotron-photo">
+                    <img src="img/thomas.jpg" alt="picture of me" class="img-rounded img-responsive">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div id="contact-info">
+    <div id="contactInfo" class="collapse out">
+        <p class="lead">
+            You can reach me either on <a href="https://twitter.com/thomasrieder">Twitter</a> or <a
+                href="http://www.google.com/recaptcha/mailhide/d?k=01UM2xr7RwUBdwTzMMXRbuuw==&c=NM3FGc-DPd43EzSpmqKI-yhLw10yj2br6nu7u36gRZQ=">via
+            email</a>.
+            <br>
+            <br>
+            In case you want to encrypt your meassge, <a href="https://keybase.io/rieder">you can find my public key on
+            Keybase</a>.
+        </p>
+    </div>
 </div>
 
 <div class="container">
-
-  <h2 class="page-header" id="work">My Work</h2>
-  <div class="row media">
-    <div class="col-md-6">
-      <div class="pull-left">
-        <h1><span class="glyphicon glyphicon-book glyph-media"></span></h1>
-      </div>
-      <div class="media-body">
-        <h3>Online Education</h3>
-        <p>Given the recent rise in free online education I decided to attend some of the courses that aren't offered at my university - at least not on the same level. Until now I have finished both <a href="https://www.udacity.com/course/cs373">Udacity's <strong>Programming a Robotic Car</strong></a> and <a href="https://www.coursera.org/course/ml">Coursera's <strong>Maschine Learning</strong></a>. You can find my programming solutions for both at <a href="https://github.com/rieder91">Github</a>. I found the Robotic Car course particularly interesting as it didn't have the purely theoretical approach to AI I know from university.</p>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="pull-left">
-        <h1><span class="glyphicon glyphicon-flash glyph-media"></span></h1>
-      </div>
-      <div class="media-body">
-        <h3>Quadcopter</h3>
-        <p>
-          I spent the summer of 2012 building my own quadcopter. I built both the hard- and software myself. It uses an <a href="http://www.arduino.cc/"><strong>Arduino</strong></a> microcontroller with a <strong>DCM-based sensor fusion</strong> coupled with a <strong>PID controller</strong> for stabilization. For wireless communication I am using <a href="http://www.digi.com/xbee/">XBee</a>. I plan to eventually write up a complete tutorial once I've ironed out the kinks that caused the last <small>crash</small>. Programming the Arduino was a nice change of pace from all the business applications and required a more low-level approach.
-        </p>
-      </div>
-    </div>
-
-  </div>
-  <div class="media">
-    <div class="pull-left">
-      <h1><i class="glyphicon icon-briefcase icon-large"></i></h1>
-   </div>
-   <div class="media-body">
-    <h3>Celix</h3>
-    <p>Since the beginning of 2013 I am working as a part time software developer at <a href="http://www.celix.at">Celix</a>. We do both <strong>consulting</strong> and <strong>develop plugins</strong> for the products listed below. Our main focus is on Atlassian products and process consulting as we are also an <strong>Atlassian Platinum expert</strong> for Austria.</p>
-
-    <div class="row media">
-      <div class="col-md-4">
-        <div class="pull-left">
-          <img class="media-object logo-small" src="images/atlassian-logo.png" alt="Atlassian Logo">
-        </div>
-        <div class="media-body">
-         <h4 class="media-heading">Atlassian</h4>
-         <p><br/></p>
-       </div>
-     </div>
-     <div class="col-md-4">
-      <div class="pull-left">
-        <img class="media-object logo-small" src="images/perforce-logo.png" alt="Perforce Logo">
-      </div>
-      <div class="media-body">
-       <h4 class="media-heading">Perforce</h4>
-       <p><br/></p>
-     </div>
-   </div>
-   <div class="col-md-4">
-    <div class="pull-left">
-      <img class="media-object logo-small" src="images/puppet-logo.png" alt="Puppet Labs Logo">
-    </div>
-    <div class="media-body">
-     <h4 class="media-heading">Puppet</h4>
-     <p><br/></p>
-   </div>
- </div>
-</div>
-</div>
-</div>
-
-
-</div>
-
-<div class="container">
-
-  <h2 class="page-header" id="background">My Background</h2>
-  <p>
-    I'm currently studying <a href="http://www.informatik.tuwien.ac.at/studium/angebot/bachelor/software-and-information-engineering">Software and Information Engineering</a> at <a href="http://www.tuwien.ac.at">Vienna University of Technology</a>, finishing my Bachelor in summer 2014 (<em>knock on wood</em>). Additionally I work as a part time software developer for <a href="http://www.celix.at">Celix</a>.
-    <br/><br/>
-    Prior to attending university I went to <a href="http://www.spengergasse.at/">HTL Spengergasse</a> - a secondary technical college for informatics. After three years I focused on network engineering and robotics. During my time there I completed the <a href="http://www.cisco.com/web/learning/certifications/associate/ccna/index.html">CCNA</a> and realized both class accompanying and a final-year project. These included the migration of the school's telephone infrastructure to <a href="http://www.cisco.com/en/US/products/sw/voicesw/ps556/index.html">Cisco Unified Communications</a> and the implementation of a virtualization infrastructure based on <a href="http://www.vmware.com/">VMware</a>, HP Blades/SAN and Wyse Thin Clients.
-    <br/><br/>
-    After finishing school I worked for two months as a system administrator managing a medium-sized network including Active Directory, Exchange, Cisco Blade/Stackable Switches and building a new Cisco Aironet WiFi with Radius authentication. Later that year I finished my six months military service at the IT security department of the <a href="http://www.bmlv.gv.at/english/">Austrian Armed Forces</a>.</p>
-  </div>
-
-  <div>
-    <div class="container">
-
-      <h2 class="page-header" id="contact">Get in Touch</h2>
-      <p>
-        The fastest way to contact me is <a href="mailto:1ybrycme">via email</a>.
-      </p>
-      <p>You can also find me at the following sites:</p>
-
-      <div id="contact-area">
-        <ul>
-          <li>
-            <a href="https://twitter.com/thomasrieder" class="btn">
-              <img class="contact-logo" src="images/twitter-logo-bw.png" alt="Twitter Logo">
-              <img class="contact-logo-hover" src="images/twitter-logo-color.png" alt="Twitter Logo">
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/rieder91" class="btn">
-              <img class="contact-logo" src="images/github-logo-bw.png" alt="Github Logo">
-              <img class="contact-logo-hover" src="images/github-logo-color.png" alt="Github Logo">
-            </a>
-          </li>
-          <li>
-            <a href="https://bitbucket.org/trieder" class="btn">
-              <img class="contact-logo" src="images/bitbucket-logo-bw.png" alt="Bitbucket Logo">
-              <img class="contact-logo-hover" src="images/bitbucket-logo-color.png" alt="Bitbucket Logo">
-            </a>
-          </li>
-          <li>
-            <a href="https://secure.flickr.com/photos/rieder91/" class="btn">
-              <img class="contact-logo" src="images/flickr-logo-bw.png" alt="Flickr Logo">
-              <img class="contact-logo-hover" src="images/flickr-logo-color.png" alt="Flickr Logo">
-            </a>
-          </li>
-          <li>
-            <a href="http://www.lastfm.de/user/rieder91" class="btn">
-              <img class="contact-logo" src="images/lastfm-logo-bw.png" alt="Lastfm Logo">
-              <img class="contact-logo-hover" src="images/lastfm-logo-color.png" alt="Lastfm Logo">
-            </a>
-          </li>
+    <div id="technology-area">
+        <ul id="technology-list">
+            <li>
+                <img class="technology-image" src="img/java-logo.png" alt="Java Logo">
+            </li>
+            <li>
+                <img class="technology-image" src="img/nodejs-logo.png" alt="NodeJs Logo">
+            </li>
+            <li>
+                <img class="technology-image" src="img/python-logo.png" alt="Python Logo">
+            </li>
+            <li>
+                <img class="technology-image" src="img/atlassian-logo.png" alt="Atlassian Logo">
+            </li>
+            <li>
+                <img class="technology-image" src="img/docker-logo.png" alt="Docker Logo">
+            </li>
+            <li>
+                <img class="technology-image" src="img/ember-logo.png" alt="Ember Profile">
+            </li>
+            <li>
+                <img class="technology-image" src="img/react-logo.png" alt="React Profile">
+            </li>
+            <li>
+                <img class="technology-image" src="img/angular-logo.png" alt="Angular Profile">
+            </li>
+            <li>
+                <img class="technology-image" src="img/postgresql-logo.png" alt="PostgreSQL Profile">
+            </li>
+            <li>
+                <img class="technology-image" src="img/elasticsearch-logo.png" alt="Elasticsearch Profile">
+            </li>
         </ul>
-      </div>
     </div>
-  </div>
-  <div id="footer" class="container footer">
-    <p>
-      <strong><span class="glyphicon glyphicon-copyright-mark"></span> by Thomas Rieder</strong><br/>
-      Powered by <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://jquery.com/">jQuery</a>.<br/>
-      Optimized for not using IE.<br/>
-      Best viewed in Chrome.<br/>
-      All logos courtesy of the respective company.
-    </p>
-  </div>
+</div>
+
+
+<div class="container">
+    <hr>
+    <div id="contact-area">
+        <ul id="profile-list">
+            <li>
+                <a href="https://keybase.io/rieder">
+                    <img class="profile-image" src="img/keybase-logo.png" alt="Twitter Profile">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.xing.com/profile/Thomas_Rieder15/">
+                    <img class="profile-image" src="img/xing-logo.png" alt="Xing Profile">
+                </a>
+            </li>
+            <li>
+                <a href="https://at.linkedin.com/in/thomas-rieder-5557a662">
+                    <img class="profile-image" src="img/linkedin-logo.png" alt="Linkedin Profile">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/thomasrieder">
+                    <img class="profile-image" src="img/twitter-logo.png" alt="Twitter Profile">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/rieder91">
+                    <img class="profile-image" src="img/github-logo.png" alt="Github Profile">
+                </a>
+            </li>
+            <li>
+                <a href="https://bitbucket.org/trieder">
+                    <img class="profile-image" src="img/bitbucket-logo.png" alt="Bitbucket Profile">
+                </a>
+            </li>
+            <li>
+                <a href="https://secure.flickr.com/photos/rieder91/">
+                    <img class="profile-image" src="img/flickr-logo.png" alt="Flickr Profile">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
 
 </body>
 </html>
