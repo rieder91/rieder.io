@@ -1,4 +1,5 @@
 
 $(function() {
-    // executes after DOM is ready
+    // enable highlightjs
+    hljs.initHighlightingOnLoad();
 });
