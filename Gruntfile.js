@@ -12,9 +12,10 @@ module.exports = function (grunt) {
             dist: {
                 /* this is needed to ensure the proper order (bootstrap requires jquery first) */
                 src: [
-                    'bower_components/jquery/dist/jquery.min.js',
-                    'bower_components/bootstrap/dist/js/bootstrap.min.js',
+                    'bower_components/jquery/dist/jquery.js',
+                    'bower_components/bootstrap/dist/js/bootstrap.js',
                     'bower_components/Bootflat/bootflat/js/*',
+                    'bower_components/highlightjs/highlight.pack.js',
                     'js/*.js'
                 ],
                 dest: 'prod/homepage.js'
@@ -36,7 +37,8 @@ module.exports = function (grunt) {
                     'css/*',
                     'bower_components/bootstrap/dist/css/bootstrap.min.css',
                     'bower_components/Bootflat/bootflat/css/bootflat.min.css',
-                    'bower_components/font-awesome/css/font-awesome.min.css'
+                    'bower_components/font-awesome/css/font-awesome.min.css',
+                    'bower_components/highlightjs/styles/atom-one-light.css'
                 ],
                 dest: 'prod/homepage.css'
             }
