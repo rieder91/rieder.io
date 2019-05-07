@@ -1,6 +1,5 @@
 {
   "name": "homepage",
-  "version": "1.0.0",
   "description": "Thomas Rieder's Personal Website",
   "repository": {
     "type": "git",
@@ -13,16 +12,19 @@
     "url": "https://github.com/rieder91/homepage/issues"
   },
   "homepage": "https://github.com/rieder91/homepage",
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-concat-css": "~0.3.1",
-    "grunt-contrib-concat": "~0.5.1",
-    "grunt-contrib-copy": "^0.8.2",
-    "grunt-contrib-cssmin": "~0.12.2",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-uglify": "~0.5.0",
-    "grunt-contrib-watch": "~0.6.1"
+    "grunt": "^1.0.4",
+    "grunt-concat-css": "~0.3.2",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "~3.0.0",
+    "grunt-contrib-jshint": "~2.1.0",
+    "grunt-contrib-nodeunit": "~2.0.0",
+    "grunt-contrib-uglify": "~4.0.1",
+    "grunt-contrib-watch": "~1.1.0"
   }
 }
