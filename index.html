@@ -22,38 +22,36 @@
 </head>
 
 <body>
-<div id="navbar">
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand">Thomas Rieder's Website</a>
-            </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="/peering">
-                            <i class="fa fa-connectdevelop" aria-hidden="true"></i> Peering
-                        </a>
-                    </li>
-                    <li><a href="http://blog.rieder.io/"><span class="glyphicon glyphicon-book"></span>
-                        <strong>Blog</strong></a></li>
-                </ul>
-            </div>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand">Thomas Rieder's Website</a>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/peering">
+                        <i class="fa fa-connectdevelop" aria-hidden="true"></i> Peering
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://blog.rieder.io/">
+                        <span class="glyphicon glyphicon-book"></span><strong>Blog</strong>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 </div>
 
 <div id="header">
     <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="jumbotron-contents">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-8">
                     <h1>Hi. I'm Thomas Rieder</h1>
                     <p class="lead">
                         I'm a computer science student and part-time software engineer.<br/>
@@ -61,16 +59,12 @@
                     </p>
                     <p><a data-toggle="collapse" href="#contactInfo" class="btn btn-primary btn-lg">Get in Touch</a></p>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="jumbotron-photo">
-                    <img src="img/thomas.jpg" alt="picture of me" class="img-rounded img-responsive">
+                <div class="col-md-4">
+                    <img src="img/thomas.jpg" alt="picture of me" class="rounded img-fluid">
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
 
 <div id="contact-info">
@@ -79,7 +73,7 @@
             You can reach me either on <a href="https://twitter.com/thomasrieder">Twitter</a> or <a
                 href="#"
                 data-email="dGhvbWFzQHJpZWRlci5pbw=="
-                onfocus="this.href = 'mailto:' + atob(this.dataset.email)" >
+                onfocus="this.href = 'mailto:' + atob(this.dataset.email)">
             via
             email</a>.
             <br>
@@ -93,6 +87,21 @@
 <div class="container">
     <div id="technology-area">
         <ul id="technology-list">
+            <li>
+                <a href="https://reactjs.org/">
+                    <img class="technology-image" src="img/react-logo.png" alt="React Logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://kubernetes.io/">
+                    <img class="technology-image" src="img/k8s-logo.png" alt="Kubernetes Logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://prometheus.io/">
+                    <img class="technology-image" src="img/prometheus-logo.png" alt="Prometheus Logo">
+                </a>
+            </li>
             <li>
                 <img class="technology-image" src="img/java-logo.png" alt="Java Logo">
             </li>
@@ -122,11 +131,6 @@
                 </a>
             </li>
             <li>
-                <a href="https://reactjs.org/">
-                    <img class="technology-image" src="img/react-logo.png" alt="React Logo">
-                </a>
-            </li>
-            <li>
                 <a href="https://angular.io/">
                     <img class="technology-image" src="img/angular-logo.png" alt="Angular Logo">
                 </a>
@@ -149,16 +153,6 @@
             <li>
                 <a href="https://kafka.apache.org/">
                     <img class="technology-image" src="img/kafka-logo.png" alt="Kafka Logo">
-                </a>
-            </li>
-            <li>
-                <a href="https://kubernetes.io/">
-                    <img class="technology-image" src="img/k8s-logo.png" alt="Kubernetes Logo">
-                </a>
-            </li>
-            <li>
-                <a href="https://prometheus.io/">
-                    <img class="technology-image" src="img/prometheus-logo.png" alt="Prometheus Logo">
                 </a>
             </li>
         </ul>
